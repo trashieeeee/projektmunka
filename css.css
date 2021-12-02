@@ -1,0 +1,44 @@
+*{
+    background-color: blanchedalmond;
+}
+
+p{
+    margin-left:  33%;
+    margin-right: 33%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 13pt;
+}
+ul{ 
+    position: fixed; 
+    top: 10px;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    
+    background-color: #333;
+    position: center;
+}
+li{
+    display: inline;
+    float: left;
+    border-right: 1px solid #bbb;
+
+}
+li:last-child{
+    border-right: none;
+}
+li a{
+    display: inline;
+    color: white;
+    
+    padding: 13px 16px;
+    text-decoration: none;
+    background-color: gray;
+    
+}
+li a:hover{
+background-color: #111;
+}
+.active{
+    background-color: green;
+}
